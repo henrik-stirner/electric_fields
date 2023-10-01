@@ -4,7 +4,7 @@
 
 
 # Add source to this project's executable.
-add_executable (electric_fields "electric_fields.cpp" "electric_fields.h"  "field.h"  "particle.h")
+add_executable (electric_fields "electric_fields.cpp" "electric_fields.h"  "field.h"  "particle.h" "util.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET electric_fields PROPERTY CXX_STANDARD 20)
